@@ -93,6 +93,10 @@ $ yo ox-ui-module:rpm-pkg --package /path/to/package.json
 
 and point Yeoman to a package.json file of an UI module.
 
+#### ox-ui-module:update-package
+
+Merges changes from the generator's package.json into the package's package.json in case core UI proposes new dependencies, versions, etc.
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
